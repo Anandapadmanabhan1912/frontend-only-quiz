@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+img {
+  height: 20%;
+  width: 20%;
+  margin-right: 40%;
+  margin-left: 40%;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url("https://img.freepik.com/free-vector/worldwide-connection-gray-background-illustration-vector_53876-76827.jpg?w=996&t=st=1719893342~exp=1719893942~hmac=b0eefc4fb66b3431ebc3105fbe49e6badf7a3ab024cd11d455b1a88c1bc7965c");
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer p {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.quiz-content {
+  margin: 1.5rem 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+
+.map {
+  width: 40%;
+  height: 40%;
+  margin: 30px;
+}
+
+.list-group-item {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #0056b3;
+}
+
+.question-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* This will reduce the space between buttons */
+}
+
+.option-button {
+  padding: 10px 20px;
+  margin: 5px 0; /* This will provide a consistent spacing between buttons */
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+  width: 200px; /* This sets a fixed width for all buttons */
+  max-width: 100%; /* Ensures buttons don't exceed container width */
+}
+
+.option-button.correct {
+  background-color: green;
+}
+
+.option-button.incorrect {
+  background-color: red;
+}
